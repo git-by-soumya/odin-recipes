@@ -4,5 +4,31 @@ img {
 }
 
 body {
-    background-color: grey;
+    background-color: #808080;
+}
+
+h1 {
+    color: rgba(33, 252, 33, 0.705);
+    border: rgba(255, 102, 0, 0.562) solid 3px;
+    font-family: 'Times New Roman', Calibri, sans-serif;
+    text-align: center;
+}
+
+ol {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color :rgb(68, 66, 31);
+    font-size: 18px;
+    text-align: right;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+div {
+    color: pink;
+    border: solid 3px currentColor;
 }
