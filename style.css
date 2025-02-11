@@ -32,3 +32,7 @@ div {
     color: pink;
     border: solid 3px currentColor;
 }
+
+.recipe-list {
+    list-style: none;
+}
