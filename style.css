@@ -8,10 +8,11 @@ body {
 }
 
 h1 {
-    color: rgba(33, 252, 33, 0.705);
+    color: rgb(0 9 81);
     border: rgba(255, 102, 0, 0.562) solid 3px;
     font-family: 'Times New Roman', Calibri, sans-serif;
     text-align: center;
+    margin: 10px 30%;
 }
 
 ol {
@@ -35,4 +36,19 @@ div {
 
 .recipe-list {
     list-style: none;
+    padding: 10px;
+    border: 10px double rgb(166, 255, 0);
+    border-width: 0px 10px 10px 10px;
+    border-bottom: 10px double red;
+    margin: 10px 30%;
+    background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+a {
+    border: 2px rgb(0, 0, 0);
+    border-style: dashed solid none;
+    padding: 1px;
+    margin: 3px;
+    background-color: white;
+    display: inline-block;
 }
